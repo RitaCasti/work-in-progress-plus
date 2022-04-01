@@ -1,0 +1,42 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+.weather-app {
+  border: 1px solid #dadde1;
+  padding: 15px;
+  margin: 20px auto;
+  border-radius: 10px;
+  max-width: 600px;
+}
+
+h1 {
+  color: grey;
+  font-size: 25px;
+  position: relative;
+  top: 10px;
+  text-align: left;
+  font-weight: 400;
+}
+ul {
+  margin: 0 0 10px;
+  padding: 0;
+}
+li {
+  list-style: none;
+  color: grey;
+  text-align: left;
+  position: relative;
+}
+.temperature {
+  font-size: 65px;
+  position: relative;
+
+  top: -25px;
+}
+.units {
+  position: relative;
+  top: -55px;
+}
+.btn-success {
+  width: 100%;
+}
